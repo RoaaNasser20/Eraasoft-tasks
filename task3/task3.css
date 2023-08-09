@@ -1,0 +1,84 @@
+body {
+    background-image: url(img1.jpg);
+    background-repeat:no-repeat;
+    background-size:1600px 900px;  /*top bottom*/
+}
+.parent                             /*The container of all the sections*/
+{
+   background-color:transparent;
+   margin-top: 30px;
+   display:flex;
+   flex-direction:column ;
+   justify-content: center;
+   align-items: center;
+}
+.parent>h1                    /*The title*/
+{
+   font-size: 55px;
+   color:white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent>p{
+   color:white;
+}
+.c0
+{
+  margin-top: 30px;
+  background-color: white;
+  width:800px;
+  height:100px;
+  border-radius:12px;
+  display:flex;
+  justify-content: center;
+}
+
+
+.inpfield
+{
+   width:300px;
+   height:40px;
+   border-radius: 20px;
+   background-color:#EAEAEA;                                   /*input text color*/
+   border:none;
+   color:rgb(170, 167, 167);                                   /*font color*/
+   font-size: medium;
+   margin-top: 30px;
+   margin-left: 15px;
+   padding-left: 20px;                                        
+   
+}
+.button1
+{
+   width:100px;
+   height:40px;
+   border-radius:50px;
+   background-color:#F46055;
+   border:none;
+   color:white;
+
+}
+
+.par2
+{
+   margin-top: 30px;
+   display: flex;
+   gap:20px;
+}
+.sections
+{
+   background-color: #F46055;
+   width:350px;
+   height:120px;
+   border-radius: 20px;
+   color:white;
+   padding:20px;
+}
+.sections>h1{
+   font-size: medium;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.par3
+{
+   margin-right:400px;
+   margin-top: 20px;
+}
