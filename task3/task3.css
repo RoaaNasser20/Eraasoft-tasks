@@ -80,5 +80,5 @@ body {
 .par3
 {
    margin-right:400px;
-   margin-top: 20px;
+   margin-top: 20px;     /*to make it start with the box above it*/
 }
