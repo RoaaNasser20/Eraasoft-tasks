@@ -1,0 +1,186 @@
+.title
+{ 
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.title h2
+{
+   font-family:Roboto,sans-serif;
+   font-size: 30px;
+   font-weight: 400;
+   color:#222;
+}
+.title p
+{
+    color:#555555;
+    font-size: 15px;
+    font-family:Roboto,sans-serif;
+    position: relative;
+    bottom: 15px;
+}
+.cardsrow1
+{
+    display: flex;
+    justify-content:center;
+    gap:25px;
+    margin-top: 15px;
+}
+.cardsrow2
+{
+    display:flex;
+    justify-content: center;
+    gap:25px;
+    position: relative;
+    bottom:240px;
+}
+.sale
+{
+    background-color: black;
+    color:#fff;
+    width:45px;
+    height:20px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    bottom:560px;
+    left:20px;
+}
+.card .image
+{
+    width:250px;
+    height:300px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e83e8c;
+}
+.card .name
+{
+   text-align: center;
+   font-size: 16px;
+   font-weight: 200;
+   font-family:Roboto,sans-serif;
+}
+.card .price
+{
+    text-align: center;
+    color:#00c4cc;
+    font-family: Roboto,sans-serif;
+    position: relative;
+    bottom:10px;
+    font-size: 15px;
+}
+.content
+{
+    position: relative;
+    bottom:200px;
+}
+.btn
+{
+    position:relative;
+    bottom:230px;
+    left:70px;
+    background-color: #fff;
+    width:130px;
+    height:40px;
+    border:none;
+    opacity:0;
+}
+.sold
+{
+    background-color: #00c4cc;
+    color:#fff;
+    width:55px;
+    height:20px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    bottom:560px;
+    left:20px;  
+}
+ .image:hover
+{
+    opacity:0;
+
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover,.card7:hover,.card8:hover
+{
+    opacity: 1;
+    background-size: cover;
+    width:250px;
+    height:300px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e83e8c;
+}
+.icons
+{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   bottom:300px;
+   left:70px;
+   gap:10px;
+   color:#6c757d;
+   opacity: 0;
+}
+.icon1,.icon2,.icon3
+{
+    background-color:#fff ;
+    width:37px;
+    height:37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1:hover
+{
+    background-image: url(https://devita-toy.myshopify.com/cdn/shop/products/16_1024x1024.jpg?v=1663393738);
+}
+.card2:hover
+{
+    background-image: url(https://devita-toy.myshopify.com/cdn/shop/products/5_68cb6e5e-381d-40b6-95c4-c41814dc8152_1024x1024.jpg?v=1663393833);
+}
+.card3:hover
+{
+    background-image: url(https://devita-toy.myshopify.com/cdn/shop/products/15_7d4a7a02-e64e-4f2d-bf59-08cafbff01e9_1024x1024.jpg?v=1663393819);
+}
+.card4:hover
+{
+    background-image: url(https://devita-toy.myshopify.com/cdn/shop/products/9_595fa7bd-ada8-412c-9996-bc1c710c7c01_1024x1024.jpg?v=1663393810);
+}
+.card5:hover
+{
+    background-image: url(https://devita-toy.myshopify.com/cdn/shop/products/2_ef34be09-8459-44cb-a6ce-bd4dc6ceaa54_1024x1024.jpg?v=1663393837);
+}
+.card6:hover
+{
+    background-image: url(https://devita-toy.myshopify.com/cdn/shop/products/3_f955f2be-9dc5-4455-b635-21421485e1c4_1024x1024.jpg?v=1663393823);
+}
+.card7:hover
+{
+    background-image: url(https://devita-toy.myshopify.com/cdn/shop/products/9_63c57ffd-7ca4-456b-901a-9f130dac8a4e_1024x1024.jpg?v=1663393814);
+}
+.card8:hover
+{
+    background-image: url(https://devita-toy.myshopify.com/cdn/shop/products/10_57d39d28-6348-4dbd-b08c-4dd3e285bad7_1024x1024.jpg?v=1663393806);
+}
+.icon1:hover,.icon2:hover,.icon3:hover
+{
+    color:#00c4cc;
+}
+.card:hover .icons
+{
+    opacity: 1;
+}
+.card:hover .btn
+{
+    opacity:1;
+}
+.btn:hover
+{
+    background-color: #00c4cc;
+}
