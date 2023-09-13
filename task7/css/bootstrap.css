@@ -1,0 +1,321 @@
+:root
+{
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Roboto", sans-serif;
+    --font-secondary: "Work Sans", sans-serif;
+    --color-default: #364d59;
+    --color-primary: #feb900;
+    --color-secondary: #52565e;
+    --color-yellow:#ffc107;
+   --background-greycolor: #f5f6f7;
+}
+@media(max-width:600px)
+{
+    .contents ,.contents2,.servicesOne,.servicesTwo
+    {
+        flex-direction: column;
+    }
+    .content1,.content2,.content3,.content4
+    {
+        width:100%;
+    }
+}
+.navbar-brand
+{
+    font-size: 24px;
+    font-family: var(--font-primary);
+    font-weight: 700;
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.carousel
+{
+    position: absolute;
+    top:0;
+}
+.navbar
+{
+    z-index: 10;
+}
+.carousel-item img
+{
+    width:100%;
+    height:100%;
+}
+.collapse hr
+{
+    width:60px;
+    height:3px;
+    color:var(--color-yellow);
+    opacity: 1;
+    position: relative;
+    bottom:25px
+}
+.navbar-collapse
+{
+    position: absolute;
+    left:700px;
+}
+.nav-item a
+{
+    color:rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    font-size: 15px;
+    font-family: var(--font-primary);
+}
+.navbar-nav
+{
+    gap:10px;
+}
+.navbar-nav a :hover
+{
+    color:#ffff;
+}
+.col-6 .title
+{
+    font-size:36px;
+    font-weight: 600;
+    color:var(--color-secondary);
+    margin-bottom: 25px;
+    margin-top: 170px;
+    font-family: var(--font-primary);
+}
+.col-6 hr
+{
+    width:60px;
+    height:5px;
+    color:var(--color-yellow);
+    opacity: 1;
+}
+.row
+{
+  position: relative;
+  left:120px;
+}
+.parent
+{
+    background-color: var(--background-greycolor);
+    height:690px;
+}
+.quote
+{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: var(--color-secondary);
+    margin-left: 10px;
+    color:#52565e;
+}
+.secondcolumn
+{
+    position: relative;
+    left:750px;
+    bottom:400px;
+    background-color: white;
+    width:568px;
+    height:540px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.parent button
+{
+    position: relative;
+    width:140px;
+    height:45px;
+    left:200px;
+}
+.secondcolumn input
+{
+    width:500px;
+    margin-left: 30px;
+}
+.secondcolumn textarea
+{
+     width:500px;
+     margin-left: 30px;
+}
+.construction
+{
+    margin-top: 80px;
+}
+.construction .header-construction hr , .services .service-header hr
+{
+    width:55px;
+    color:var(--color-yellow);
+    opacity: 1;
+    height:2px;
+    position: relative;
+    top:5px;
+    right:2px;
+}
+.construction .contents
+{
+    margin-top: 30px;
+}
+.construction .contents , .contents2
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:20px
+}
+.contents .content1,.contents .content2 ,.contents2 .content3 ,.contents2 .content4
+{
+    border:#adb5bd solid 1px;
+    display: flex;
+    height:300px;
+    width:650px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.contents .content1 img ,.content2 img , .contents2 .content3 img ,.contents2 .content4 img
+{
+    width:280px;
+    height:300px;
+    position: relative;
+    bottom:30px
+}
+.contents .content1 h4 ,.contents .content2 h4 , .contents2 .content3 h4 , .contents2 .content4 h4
+{
+    font-weight: 700;
+    font-size: 20px;
+    color:var(--color-secondary);
+    padding-left: 30px;
+}
+.contents .content1 p,.contents .content2 p , .contents2 .content3 p , .contents2 .content4 p
+{
+    color:var(--color-secondary);
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 17px;
+}
+.construction h2,.service-header h2
+{
+    font-size: 32px;
+    font-weight: 700;
+    color:#2e3135;
+    font-family: var(--font-primary);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header-construction
+{
+    margin-left: 550px;
+}
+.construction pre,.services .text
+{
+    margin-left: 350px;
+    color:#52565e;
+    font-family: var(--font-primary);
+    font-size: 17px;
+}
+.services
+{
+    background-color: var(--background-greycolor);
+    width:100%;
+    height:1000px;
+}
+.servicesOne,.servicestwo
+{
+    display: flex;
+    position: relative;
+    right:50px;
+}
+.servicestwo
+{
+    margin-top: 20px;
+}
+.service-header 
+{
+    display:flex;
+    margin-top: 80px;
+    padding-top: 70px;
+    margin-left: 600px;
+}
+.service1,.service2,.service3,.service
+{
+    background-color: #fff;
+    width:400px;
+    height:350px;
+    padding-top: 60px;
+    margin-left: 100px;
+    padding-left: 25px;
+}
+.service1 #main-icon ,.service2 #main-icon , .service3 #main-icon ,.service #main-icon
+{
+    font-size: 40px;
+    color:#52565e;
+}
+.service1 #main-icon,h3,hr,a  ,.service2 #main-icon,h3,hr,a ,.service3 #main-icon,h3,h4,a , .service #main-icon,h3,h4,a
+{
+    padding-left: 20px;
+}
+.service1 h3 , .service2 h3 ,.service3 h3,.service h3
+{
+    color:var(--color-default);
+    font-size: 22px;
+    font-weight: 700;
+    font-family:var(--font-primary);
+    margin-top: 40px;
+}
+.service1 hr  , .service2 hr ,.service3 hr ,.service hr
+{
+    width:140px;
+    height:5px;
+    margin-left: 20px;
+    transform: translateY(-8px);
+    opacity:0.1;
+}
+
+/*suiting the width of each line to be same length according to each element*/
+
+.service2 hr
+{
+    width:165px
+}
+.service3 hr
+{
+    width:120px
+}
+.service4 hr
+{
+    width:230px;
+}
+.service5 hr
+{
+    width:180px;
+}
+.service6 hr
+{
+    width:180px
+}
+.service1:hover hr  , .service2:hover hr ,.service3:hover hr ,.service:hover hr
+{
+    color:var(--color-yellow);
+    opacity: 1;
+}
+.service1 pre , .service2 pre,.service3 pre ,.service pre
+{
+    color:#52565e;
+    font-size: 15px;
+    font-family: var(--font-primary);
+}
+.service1 a , .service2 a ,.service3 a,.service a
+{
+  font-size: 17px;
+  text-decoration: none;
+  position: relative;
+  bottom:25px;
+  right:3px;
+
+}
+#arrow
+{
+    position: relative;
+    top:1px;
+    left:2px;
+}
