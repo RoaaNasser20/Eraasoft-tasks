@@ -1,0 +1,80 @@
+body
+{
+    background-color: aliceblue;
+}
+
+
+div
+{
+    height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:20px;
+}
+
+
+#successBtn
+{
+    color:#fff;
+    background-color: blueviolet;
+    width:270px;
+    height:70px;
+    font-size: 17px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.container
+{
+    width:310px;
+    height:220px;
+    background-color:#fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom:450px;
+    left:780px;
+    transform: scale(-0.1);
+    z-index: 1;
+    opacity:0;
+}
+.container img
+{
+    width:100px;
+    height:70px;
+}
+.container h2
+{
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.container p
+{
+    color:rgb(148, 127, 127);
+    position: relative;
+    bottom:10px;
+    font-size: 12px;
+}
+.container #okBtn
+{
+    color:#fff;
+    background-color: blueviolet;
+    width:40px;
+    height:30px;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 0 8px 16px 0 rgb(151, 112, 187);
+    font-size: 10px;
+}
+.show
+{
+    opacity:1;
+    transform: scale(1.7);
+    z-index: 20;
+    transition-duration: 0.5s;
+}
