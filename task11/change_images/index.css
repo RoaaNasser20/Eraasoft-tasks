@@ -1,10 +1,38 @@
+.container
+{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  position: relative;
+  top:200px;
+}
+.three
+{
+  display:flex;
+  position: relative;
+  right:40px;
+  padding-top: 30px;
+}
+.mainImg h1
+{
+  position: relative;
+  right:20px;
+  color:bisque
+}
+.mainImg p
+{
+  color:#aaa;
+  position: relative;
+  right:40px;
+}
 .mainImg img
 {
-  z-index: 14;
+   width:200px;
+   height:200px
 }
-.three .first img
+.first img,.second img,.third img
 {
-  width:100px;
-  height:70px;
-  z-index: 20;
+  width:200px;
+  height:200px;
 }
